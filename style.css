@@ -1,0 +1,102 @@
+#root{ 
+    margin-right: 10px;
+    float: left;
+}
+ 
+#panel{
+    width: 350px;
+    height: 675px;
+    float: right;
+    border: medium solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+ 
+#board{
+    margin-right: 5px;
+    float: left;
+    border: medium solid black;
+}
+ 
+.space{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: middle;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+}
+ 
+.space.s0{
+    background-color: rgb(245, 255, 245)
+}
+ 
+.space.s2{
+    background-color:rgb(165, 245, 165)
+}
+ 
+.space.s4{
+    background-color:rgb(85, 235, 85)
+}
+ 
+.space.s8{
+    background-color:rgb(45, 225, 140)
+}
+ 
+.space.s16{
+    background-color: rgb(25, 215, 185)
+}
+ 
+.space.s32{
+    background-color: rgb(15, 205, 225)
+}
+ 
+.space.s64{
+    background-color: rgb(5, 175, 255)
+}
+ 
+.space.s128{
+    background-color: rgb(55, 145, 235)
+}
+ 
+.space.s256{
+    background-color: rgb(95, 115, 215)
+}
+ 
+.space.s512{
+    background-color: rgb(135, 85, 195);
+}
+ 
+.space.s1024{
+    background-color: rgb(175, 45, 175);
+}
+ 
+.space.s2048{
+    background-color: rgb(215, 5, 155);
+}
+ 
+.space.s4096{
+    background-color: rgb(255, 5, 135);
+}
+ 
+.space.s8192{
+    background-color:rgb(255, 45, 105);
+}
+ 
+.space.s16384{
+    background-color: rgb(255, 85, 85);
+}
+ 
+.space.s32768{
+    background-color: rgb(255, 125, 45);
+}
+ 
+.space.s65536{
+    background-color: rgb(255, 165, 5);
+}
+ 
+.space.largest{
+    background-color: rgb(255, 205, 0);
+}

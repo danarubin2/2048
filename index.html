@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <title>2048</title>
+ 
+        <!-- Include links to CSS stylesheets below -->
+        <!-- <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" /> -->
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+ 
+        <script src= "node_modules/jquery/dist/jquery.js"></script>
+        <script src= "render.js" type = "module"></script>
+        <script src= "./engine/game.js" type ="module"></script>
+ 
+    </head>
+ 
+    <body>
+        <div id="root">
+            <div class="table is-bordered" id="board"></div>
+            <div class="section content has-text-centered" id="panel">
+                <div class="section" id="intro">
+                    <h2 class="title">Welcome to 2048!</h2>
+                    <h4 class="subtitle instructions">Use the arrow keys to move tiles, merging ones of
+                        the same value. Try to get to the 2048 tile!
+                    </h4>
+                    <h4 class="subtitle">Hit the arrow keys to begin.</h4>
+                </div>
+                <div>
+                    <div class="container">
+                        <h4 class="subtitle">Score: </h4>
+                        <h5 class="subtitle" id="score">0</h5>
+                    </div>
+                    <div class="container">
+                        <button class="button is-primary is-rounded" id="restart">Restart</button>
+                    </div>
+                    <div class="container" id="results">
+                            <h4 class="subtitle"></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
